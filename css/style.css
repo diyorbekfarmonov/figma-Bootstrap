@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    overflow-x: hidden !important;
+    font-family: 'Poppins' !important;
+}
 .right-text{
     max-width: 776px;
+}
+.pricing p {
+    color: #8F95A5 !important;
 }
 .contact-us {
     display: flex;
@@ -10,13 +19,15 @@
 .none-title {
     display: none !important;
 }
-
+.width-p { 
+    max-width: 630px !important;
+    font-size: 24px !important;
+}
 .contact-us img {
     max-width: 477px;
     width: 100%;
     height: auto;
 }
-
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -27,8 +38,48 @@ section {
     padding: 50px 0;
 }
 @media (max-width: 380px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .card p {
+        font-size: 12px !important;
+        color: #8F95A5 !important;
+    }
+    .start-learning {
+        color: #8F95A5 !important;
+        font-size: 12px !important;
+    }
+    .size-p {
+        font-size: 13px !important;
+        color: #8F95A5 !important;
+    }
+    .size-t {
+        font-size: 16px !important;
+    }
+    footer h1 {
+        font-size: 24px;
+    }
+    .size-title {
+        font-size: 36px;
+    }
+    .media-btn {
+        font-size: 20px !important;
+    }
+    footer p {font-size: 11px;}
     .yoq_item {
         display: none;
+    }
+    .center-p {
+        text-align: center !important;
     }
     .bor_item {
         display: block !important;
@@ -42,5 +93,4 @@ section {
     .flex-input > button {
         display: block !important;
     }
-    c
 }
